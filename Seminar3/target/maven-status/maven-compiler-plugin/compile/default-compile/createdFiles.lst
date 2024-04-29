@@ -1,0 +1,16 @@
+se\kth\iv1350\linnea\seminar3\startup\Main.class
+se\kth\iv1350\linnea\seminar3\controller\Controller.class
+se\kth\iv1350\linnea\seminar3\model\Amount.class
+se\kth\iv1350\linnea\seminar3\model\SaleDTO.class
+se\kth\iv1350\linnea\seminar3\model\ItemDTO.class
+se\kth\iv1350\linnea\seminar3\model\Sale.class
+se\kth\iv1350\linnea\seminar3\model\CashPayment.class
+se\kth\iv1350\linnea\seminar3\integration\ExternalSystemCreator.class
+se\kth\iv1350\linnea\seminar3\model\CashRegister.class
+se\kth\iv1350\linnea\seminar3\view\View.class
+se\kth\iv1350\linnea\seminar3\model\ItemAndRunningTotalDTO.class
+se\kth\iv1350\linnea\seminar3\integration\ExternalAccountingSystem.class
+se\kth\iv1350\linnea\seminar3\model\Receipt.class
+se\kth\iv1350\linnea\seminar3\integration\ExternalInventorySystem.class
+se\kth\iv1350\linnea\seminar3\integration\Printer.class
+se\kth\iv1350\linnea\seminar3\model\LineItem.class
