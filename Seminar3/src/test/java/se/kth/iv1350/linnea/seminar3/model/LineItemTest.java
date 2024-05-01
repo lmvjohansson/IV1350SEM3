@@ -28,6 +28,7 @@ public class LineItemTest {
         int expectedResult = lineItem.getQuantity() + quantity;
         lineItem.addQuantity(quantity);
         int result = lineItem.getQuantity();
+        assertEquals(expectedResult, result, "addQuantity not adding quantity correctly.");
     }
 
     @Test
@@ -36,6 +37,7 @@ public class LineItemTest {
         int expectedResult = lineItem.getQuantity() + quantity;
         lineItem.addQuantity(quantity);
         int result = lineItem.getQuantity();
+        assertEquals(expectedResult, result, "addQuantity not adding quantity correctly.");
     }    
     
     @Test
