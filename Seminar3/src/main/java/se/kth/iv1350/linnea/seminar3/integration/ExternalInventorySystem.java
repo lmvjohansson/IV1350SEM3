@@ -24,7 +24,7 @@ public class ExternalInventorySystem {
             new ItemDTO("BigWheel Oatmeal", "abc123", new Amount(2821), "BigWheel Oatmeal 500 g, "
                     + "whole grain oats, high fiber, gluten free", 6),
             new ItemDTO("YouGoGo Blueberry", "def456", new Amount(1406), "YouGoGo Blueberry 240 g, "
-                    + "low sugar youghurt, 29 blueberry flavour", 6),
+                    + "low sugar youghurt, blueberry flavour", 6),
             };
         return itemArray;
     }
