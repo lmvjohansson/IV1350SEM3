@@ -21,25 +21,6 @@ public class ItemAndRunningTotalDTO {
     }
     
     /**
-     * Returns all information in a String.
-     * 
-     * @return String with all information.
-     */
-    @Override
-    public String toString(){
-        StringBuilder builder = new StringBuilder();
-        builder.append("Item ID: " + item.getIdentifier() + "\n");
-        builder.append("Item name: " + item.getName() + "\n");
-        builder.append("Item cost: " + item.getPrice().plus(item.getVat()).toString() + "\n");
-        builder.append("VAT: " + item.getVatRate() + "% \n");
-        builder.append("Item description: " + item.getDescription() + "\n");
-        builder.append("\n");
-        builder.append("Total cost (incl VAT): " + runningTotal.toString() + "\n");
-        builder.append("Total VAT: " + runningVat.toString() + "\n");
-        return builder.toString();
-    }
-    
-    /**
      * Returns the item attribute.
      * 
      * @return the item.
@@ -55,6 +36,15 @@ public class ItemAndRunningTotalDTO {
      */
     public Amount getRunningTotal(){
         return runningTotal;
+    }
+    
+    /**
+     * Returns the runningVat attribute.
+     * 
+     * @return the running vat.
+     */
+    public Amount getRunningVat(){
+        return runningVat;
     }
 
 }

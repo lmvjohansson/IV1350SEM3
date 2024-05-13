@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.051" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.018" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,9 +16,8 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\lmvjo\AppData\Local\Temp\surefire3669544878559990196\surefirebooter10525374564337940224.jar C:\Users\lmvjo\AppData\Local\Temp\surefire3669544878559990196 2024-05-03T16-46-31_307-jvmRun1 surefire17182821395197062975tmp surefire_011314477259892585102tmp"/>
+    <property name="sun.java.command" value="C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036\surefirebooter855455204158954758.jar C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036 2024-05-03T17-32-02_276-jvmRun1 surefire12893751304555089502tmp surefire_017509619787971161265tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="se.kth.iv1350.linnea.seminar3.startup.MainTest"/>
     <property name="surefire.test.class.path" value="C:\Users\lmvjo\Documents\NetBeansProjects\Seminar3\target\test-classes;C:\Users\lmvjo\Documents\NetBeansProjects\Seminar3\target\classes;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\lmvjo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\lmvjo"/>
@@ -32,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lmvjo\AppData\Local\Temp\surefire3669544878559990196\surefirebooter10525374564337940224.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036\surefirebooter855455204158954758.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -61,11 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testMainPrintsRunningVat" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.038"/>
-  <testcase name="testMainPrintsRunningTotal" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.002"/>
-  <testcase name="testMainPrintsReceipt" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
-  <testcase name="testMainPrintsChange" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
-  <testcase name="testMainPrintsTotalCost" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
-  <testcase name="testMainPrintsSecondItem" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
-  <testcase name="testMainPrintsFirstItem" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
+  <testcase name="testMainPrintsRunningVat" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.003"/>
+  <testcase name="testMainPrintsRunningTotal" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.001"/>
+  <testcase name="testMainPrintsReceipt" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.003"/>
+  <testcase name="testMainPrintsChange" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.002"/>
+  <testcase name="testMainPrintsTotalCost" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.002"/>
+  <testcase name="testMainPrintsSecondItem" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.002"/>
+  <testcase name="testMainPrintsFirstItem" classname="se.kth.iv1350.linnea.seminar3.startup.MainTest" time="0.002"/>
 </testsuite>
