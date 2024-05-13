@@ -77,12 +77,21 @@ public class Sale {
      * 
      * @return itemList.
      */
-    public ArrayList<LineItem> getItemList(){
-        ArrayList<LineItem> copy = new ArrayList<>();
+    public ArrayList<LineItemDTO> getItemListDTO(){
+        ArrayList<LineItemDTO> copy = new ArrayList<>();
         for (LineItem element : itemList) {
-            copy.add(new LineItem(element)); 
+            copy.add(new LineItemDTO(element)); 
         }
         return copy;
+    }
+    
+    /**
+     * Returns the itemList attribute.
+     * 
+     * @return itemList.
+     */
+    public ArrayList<LineItem> getItemList(){
+        return itemList;
     }
     
     /**
