@@ -18,15 +18,6 @@ public class LineItem {
         this.quantity = quantity;
     }
     
-    /**
-     * Creates a copy of a LineItem.
-     * 
-     * @param lineItem the instance to be copied
-     */
-    LineItem(LineItem lineItem){
-        this.item = lineItem.getItem();
-        this.quantity = lineItem.getQuantity();
-    }
     
     /**
      * Adds a quantity to the existing quantity.

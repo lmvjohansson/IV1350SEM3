@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class SaleDTO {
     private final Amount runningTotal;
     private final Amount runningVat;
-    private final ArrayList<LineItem> itemList;
+    private final ArrayList<LineItemDTO> itemList;
 
     /**
      * Creates a new instance.
@@ -18,7 +18,7 @@ public class SaleDTO {
     public SaleDTO(Sale sale){
         this.runningTotal = sale.getRunningTotal();
         this.runningVat = sale.getRunningVat();
-        this.itemList = sale.getItemList();
+        this.itemList = sale.getItemListDTO();
     }
     
 }
