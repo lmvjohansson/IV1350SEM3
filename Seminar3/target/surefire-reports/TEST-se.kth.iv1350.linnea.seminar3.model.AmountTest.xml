@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.006" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.01" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\lmvjo\AppData\Local\Temp\surefire17704495754650687340\surefirebooter8362896720144513568.jar C:\Users\lmvjo\AppData\Local\Temp\surefire17704495754650687340 2024-04-30T14-25-20_587-jvmRun1 surefire18231724909421359723tmp surefire_07311691813216246380tmp"/>
+    <property name="sun.java.command" value="C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036\surefirebooter855455204158954758.jar C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036 2024-05-03T17-32-02_276-jvmRun1 surefire12893751304555089502tmp surefire_017509619787971161265tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lmvjo\Documents\NetBeansProjects\Seminar3\target\test-classes;C:\Users\lmvjo\Documents\NetBeansProjects\Seminar3\target\classes;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\lmvjo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\lmvjo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lmvjo\AppData\Local\Temp\surefire17704495754650687340\surefirebooter8362896720144513568.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lmvjo\AppData\Local\Temp\surefire13223022844257511036\surefirebooter855455204158954758.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;C:\Users\lmvjo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\MATLAB\R2024a\bin;C:\Users\lmvjo\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -66,12 +66,12 @@
   <testcase name="testMinus" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
   <testcase name="testPlus" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
   <testcase name="testMinusNegResult" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testPlusNegResult" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testNotEqualsJavaLangObject" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testNotEqualUsingNoArgConstr" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testEqualNoArgConstr" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testMinusZeroResultNegOperand" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
+  <testcase name="testPlusNegResult" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.001"/>
+  <testcase name="testNotEqualsJavaLangObject" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.001"/>
+  <testcase name="testNotEqualUsingNoArgConstr" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.001"/>
+  <testcase name="testEqualNoArgConstr" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.001"/>
+  <testcase name="testMinusZeroResultNegOperand" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.001"/>
   <testcase name="testNotEqualsNull" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
-  <testcase name="testMultiply" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0.004"/>
+  <testcase name="testMultiply" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
   <testcase name="testPlusZeroResultNegOperand" classname="se.kth.iv1350.linnea.seminar3.model.AmountTest" time="0"/>
 </testsuite>

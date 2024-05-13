@@ -73,12 +73,16 @@ public class Sale {
     }
     
     /**
-     * Returns the itemList attribute.
+     * Returns a deep copy of itemList attribute.
      * 
      * @return itemList.
      */
     public ArrayList<LineItem> getItemList(){
-        return itemList;
+        ArrayList<LineItem> copy = new ArrayList<>();
+        for (LineItem element : itemList) {
+            copy.add(new LineItem(element)); 
+        }
+        return copy;
     }
     
     /**
