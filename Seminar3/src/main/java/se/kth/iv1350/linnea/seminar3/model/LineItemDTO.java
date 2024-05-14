@@ -16,5 +16,22 @@ public class LineItemDTO {
         this.item = lineItem.getItem();
         this.quantity = lineItem.getQuantity();
     }
+    
+    /**
+     * Returns item attribute.
+     * 
+     * @return item
+     */
+    public ItemDTO getItem(){
+        return item;
+    }
 
+    /**
+     * Returns quantity attribute.
+     * 
+     * @return quantity
+     */
+    public int getQuantity(){
+        return quantity;
+    }
 }
